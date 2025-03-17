@@ -274,6 +274,3 @@ export const resetPassword = catchAsyncErrors(async (req, res, next) => {
 
   generateToken(user, "Reset Password Successfully!", 200, res);
 });
-
-/*return next(new ErrorHandler("Failed to upload avatar to Cloudinary", 500));*/
-/*return next(new ErrorHandler("Failed to upload resume to Cloudinary", 500));*/
